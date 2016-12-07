@@ -1,0 +1,1 @@
+- This code-along is heavily inspired by my previous more thorough (2d) unity code-along. If you miss some more basic explanations, maybe look there: https://github.com/Powersource/unity-ld-demo
