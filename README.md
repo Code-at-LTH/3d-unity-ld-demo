@@ -7,6 +7,7 @@
 
 - Move the .blend file into the Assets folder. If you're lucky Unity creates an .fbx file for you, otherwise you have to manually export the model as one.
 - Drag the finished model into the scene. Make sure that it doesn't contain unnecessary cameras and lights.
+- If you didn't add collision in blender then you can select for unity to generate that in the asset's inspector settings (import settings).
 
 - Create some terrain to run around on, `GameObject->3d Object->Terrain`
 - Drag it away a bit to not fall of too easily (don't worry, you can still do that).
@@ -14,3 +15,6 @@
 - From this menu you can also raise and modify the terrain in many ways. If raising terrain, remember to increase brush size and opacity.
 
 - Unpack the zip file into the Assets folder. You can also get these files and many more if you search for "Standard Assets" in the asset store, but we're on eduroam and that download is very large.
+- Drag `Assets->Characters->ThirdPersonCharacter->Prefabs->ThirdPersonController.prefab` into the scene.
+- Drag the main camera in the hierarchy to be a child of the `ThirdPersonController`.
+- This `Controller` isn't very good (try holding back), and the first person controllers are pretty broken, but they're well commented and they show the concepts pretty well. And again, my previous code-along has a lot of instructions and comments on getting started with coding in Unity.
